@@ -1,0 +1,83 @@
+header h1{
+    color: #7C593C;
+    letter-spacing: 0.1rem;
+}
+header h1 i.fa-lg{
+    display:block;
+    width: 25%;
+    float:left;
+    font-size: 7rem;
+    line-height: 12.7936rem;
+    color: #C9A689;
+}
+header h1 i.fa-lg ~ span{
+    float: right;
+    width: 75%;
+    font-size: 3.998rem;
+    /**
+    2 lines of 3.998 * 1.6 = 12.7936
+    **/
+    padding-left: 1rem;
+    text-align: right;
+}
+.focal h2{
+    font-size: 1.999rem;
+    line-height: 1.2;
+    padding: 2rem 2rem 1rem 2rem;
+}
+.focal .author{
+    font-size: 1rem;
+    padding: 0.2rem 2rem 2rem;
+}
+.content1 h3{
+    font-size:1.999rem;
+    padding: 0.2rem 2rem 2rem;
+}
+.content1 h3 i{
+    vertical-align:middle;
+    padding-right: 2rem;
+}
+.content1 p{
+    font-size: 1.414rem;
+    padding: 0.5rem 2rem 2rem;
+}
+.content2 h3{
+    font-size: 1.999rem;
+    padding: 1rem 2rem 0.5rem;
+}
+.content2 h4{
+    font-size: 1.999rem;
+    padding: 1rem 2rem 0rem;
+}
+.content2 p{
+    font-size: 1.414rem;
+    padding: 0.5rem 2rem 1rem;
+}
+.content2 li{
+    padding: 0.5rem 2rem;
+    font-size: 1.414rem;
+}
+/***********************************************
+                FOOTER
+***********************************************/
+footer h4{
+    font-size: 1.414rem;
+    padding: 0.5rem 2rem;
+    color: #7C593C;
+}
+footer p{
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    color: #222;
+}
+footer .fa-circle{
+    color: #222;
+}
+footer h4[lang=de]{
+   display:block;
+}
+footer h4[lang=en],
+footer h4[lang=ar],
+footer h4[lang=ru]{
+    display:none;
+}
