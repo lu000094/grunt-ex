@@ -1,0 +1,26 @@
+{
+  "name": "grunt-ex",
+  "version": "1.0.0",
+  "description": "Starter files for the MAD9135 Grunt Hybrid exercise",
+  "main": "gruntfile.js",
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lu000094/grunt-ex.git"
+  },
+  "author": "Wenjuan Lu (lu000094)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lu000094/grunt-ex/issues"
+  },
+  "homepage": "https://github.com/lu000094/grunt-ex#readme"
+}
